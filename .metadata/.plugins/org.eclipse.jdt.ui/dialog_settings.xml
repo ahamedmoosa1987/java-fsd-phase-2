@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="C:\Users\Ahamed.MOOSA\Documents\javaFSDPhase2\Jar Files\Servlet_JSP" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="/home/ahamedmoosasgma/Documents/java-fsd-phase-2/apache-tomcat-9.0.78/lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
 		<item value="true" key="create_unimplemented"/>

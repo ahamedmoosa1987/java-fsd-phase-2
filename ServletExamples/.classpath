@@ -8,6 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/Ahamed.MOOSA/Documents/javaFSDPhase2/Jar Files/Servlet_JSP/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/home/ahamedmoosasgma/Documents/java-fsd-phase-2/apache-tomcat-9.0.78/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
