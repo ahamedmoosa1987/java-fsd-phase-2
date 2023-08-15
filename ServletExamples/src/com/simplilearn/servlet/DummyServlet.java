@@ -11,13 +11,28 @@ public class DummyServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse)
 			throws IOException {
+	
+		String name = httpServletRequest.getParameter("username");
+		String password = httpServletRequest.getParameter("password");
+		
 		httpServletResponse.setContentType("text/html");
 
 		PrintWriter pw = httpServletResponse.getWriter();
-
-		pw.println("<html><body>");
-		pw.println("Welcome to my servlet !");
-		pw.println("<html><body>");
+		
+		if(password.equalsIgnoreCase("admin123"))
+		{
+			pw.println("<html><body>");
+			pw.println("Welcome " + name + " to my servlet !");
+			pw.println("<html><body>");
+		}
+		
+		else
+		{
+			pw.println("<html><body>");
+			pw.println("You have entered wrong password");
+			pw.println("<html><body>");
+		}
+		
 
 		pw.close(); 
 
